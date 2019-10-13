@@ -1,0 +1,57 @@
+> CSS code
+/*font-family*/
+p {
+font-family: "Arial";
+}
+/*can use https://www.cssfontstack.com/ to check the fonts compatible on different OS*/
+h1 {
+font-family: "Indie Flower";
+}
+/*font-size*/
+
+body { font-size: 10px; }
+
+h1 {font-size: 5.0em;}
+
+p {font-size: 2.0em;}
+
+span { font-size: 2.0em; }
+
+/*font-weight*/
+p {font-weight: bold;}
+/*can use font-weight from 100 to 800 (only in hundreds*/
+/*line-height*/
+p {line-height: 1.5;}
+/*text-align*/
+h1 {text-align: right;}
+
+p {text-align: center;}
+/*text-decoration*/
+p {text-decoration: underline;}
+
+h1 {text-decoration: line-through; }
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> Corresponding HTML
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fonts</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+/*Above line was from fonts.google.com*/
+</head>
+<body>
+
+<h1>Fonts Demo Page</h1>
+asdfadfas
+<p> Bacon ipsum dolor amet leberkas chicken boudin, meatloaf beef kielbasa bresaola rump buffalo landjaeger <span>short ribs</span> ground round tri-tip burgdoggen. Bacon fatback tail shank, strip steak landjaeger beef ribs pork chop hamburger kielbasa kevin drumstick andouille. Alcatra ham hock tri-tip, tail brisket beef ribs short ribs meatloaf chicken filet mignon porchetta. Pastrami kevin alcatra chicken hamburger flank rump. Bresaola shankle cupim meatloaf cow, frankfurter sirloin spare ribs salami brisket buffalo porchetta jowl. Short loin corned beef tail kevin burgdoggen sirloin turkey, pork kielbasa andouille swine beef.
+</p>
+
+<p>
+Pancetta drumstick pig, corned beef tenderloin shank tongue meatball kielbasa frankfurter pork loin. Corned beef sirloin t-bone shankle tri-tip, hamburger short ribs leberkas venison porchetta. Meatball flank corned beef, filet mignon tenderloin pastrami meatloaf hamburger alcatra swine jerky bresaola. Turkey beef andouille bresaola beef ribs sirloin buffalo kevin frankfurter. Spare ribs cupim rump salami alcatra pancetta shank chicken brisket t-bone andouille. Ham hock tail t-bone venison, sirloin jerky leberkas corned beef bresaola andouille strip steak. Short ribs bresaola burgdoggen pork belly shank. </p>
+
+</body>
+</html>
+
