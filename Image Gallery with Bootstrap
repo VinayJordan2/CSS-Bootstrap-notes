@@ -1,0 +1,24 @@
+> If you're looking for Pinterest-like presentation of thumbnails of varying heights and/or widths, you'll need to use a third-party plugin such as Masonry, Isotope, or Salvattore.
+
+> great, free images at 
+https://unsplash.com/
+><img src="https://source.unsplash.com/cPF2nlWcMY4">
+> can share your images from 
+https://imgur.com/
+> https://imgur.com/
+> Glyphicons
+> In the next video we will be using a font/icon library called Font Awesome. Font Awesome can now be found at http://fontawesome.io/
+> Images Gallery code on codePen 
+https://codepen.io/vinay-didil/pen/oNvMGjj
+16 SEPT 19 - 6.51PM
+> For icons https://fontawesome.com/icons/
+> <i class="fas fa-camera-retro"></i>
+> My Image Gallery program is in DropBox (84th in Udemy)
+> Note about making bootstrap responsive on mobile devices
+> If you want your bootstrap styled website to be responsive on mobile then be sure to add the following meta tag to your <head>  element, above the <title>  tag:
+<meta name="viewport" content="width=device-width, initial-scale=1>
+
+﻿17 SEPT 19 - 3.38PM
+
+> Purrfect match code: https://codepen.io/vinay-didil/full/gOYjVdr
+
