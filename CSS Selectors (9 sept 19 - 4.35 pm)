@@ -1,0 +1,165 @@
+
+CSS Selectors
+The Basics: Element, ID and Class
+
+> Element (uses name of the element),
+> ID (uses ID attribute in HTML and # in CSS)
+> Class (uses class attribute in HTML and . in CSS)
+
+> example program
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todo List</title>
+<link rel="stylesheet" type="text/css" href="todos.css">
+</head>
+<body>
+
+<h1>Todo List</h1>
+
+<ul>
+<li class="completed">
+<input type="checkbox" checked>
+Walk Rusty
+</li>
+<li class="completed">
+<input type="checkbox" checked>
+Buy Groceries
+</li>
+<li id="special">
+<input type="checkbox">
+Finish Recording CSS Videos
+</li>
+</ul>
+
+</body>
+</html>
+
+CSS Code below (name is todos.css)
+
+li {
+border: 2px solid red;
+}
+
+#special{
+background: yellow;
+}
+
+.completed {
+text-decoration: line-through;
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The 30 CSS Selectors You Must Memorize:
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+> Useful Selectors
+
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+
+li a {
+	color: red;
+}
+
+/*Adjacent Selector*/
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+
+/*Attribute Selector*/
+
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+/*nth of type*/
+
+li:nth-of-type(odd){
+	background: purple;
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> Corresponding HTML program:
+ 	<!DOCTYPE html>
+ 	<html>
+ 	<head>
+ 	<title>Selectors Demo</title>
+ 	<link rel="stylesheet" type="text/css" href="selectors.css">
+ 	</head>
+ 	<body>
+ 	
+ 	<h1>Selector Demo</h1>
+ 	<a href="http://www.google.com">Click Me For Google</a>
+ 	
+ 	<ul>
+ 	<li>Apples</li>
+ 	<li>Oranges</li>
+ 	<li>Bananas</li>
+ 	</ul>
+ 	
+ 	<h4>Popular Sites</h4>
+ 	
+ 	<ul>
+ 	<li>Carrots</li>
+ 	<li>Peas</li>
+ 	<li>Asparagus</li>
+ 	<li>Carrots</li>
+ 	<li>Peas</li>
+ 	<li>Asparagus</li>
+ 	<li>Carrots</li>
+ 	<li>Peas</li>
+ 	<li>Asparagus</li>
+ 	</ul>
+ 	
+ 	<h4>Popular Sites</h4>
+ 	
+ 	
+ 	<ul>
+ 	<li>
+ 	<a href="http://www.google.com">Google</a>
+ 	</li>
+ 	<li>
+ 	<a href="http://www.facebook.com">Facebook</a>
+ 	</li>
+ 	<li>
+ 	<a href="http://www.reddit.com">Reddit</a>
+ 	</li>
+ 	</ul>
+ 	
+ 	</body>
+ 	</html>
+ 	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 	
+ 	
+> Specificity  (10 sept 19 - 4.24PM)
+> MDN article Link : https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+> Specificity Calculator - https://specificity.keegan.st/
+ 	 A selector's specificity is calculated as follows:
+
+
+~ count the number of ID selectors in the selector (= a)
+~ count the number of class selectors, attributes selectors, and pseudo-classes in the selector (= b)
+~ count the number of type selectors and pseudo-elements in the selector (= c)
+~ ignore the universal selector
