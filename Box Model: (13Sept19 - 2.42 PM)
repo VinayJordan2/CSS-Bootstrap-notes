@@ -1,0 +1,30 @@
+Box Model:
+"In a document, each element is represented as a rectangular box. In CSS, each of these rectangular boxes is described using the standard 'box model'.
+Each box has four edgess: the >margin edge, >border edge, >padding edge, and >content edge." --MDN
+
+p {
+
+/*Content - Width and Height*/
+
+width: 50%;
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding*/
+
+/*padding: 10px;*/
+padding-left: 40px;
+
+/*Margin*/
+/*margin: 100px;*/
+/*margin-top: 500px;*/
+/*margin: 20px 40px 500px 100px;*/
+/*margin: 0 auto 0 auto;*/
+margin: 0 auto;
+margin: 50px 20px;
+}
+
+> Tic Tac Toe Code 
+> The one I did is https://codepen.io/vinay-didil/pen/QWLxxZR
+> The one Steele did is in Udemy
