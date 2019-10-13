@@ -1,0 +1,110 @@
+www.csszengarden.com -> it has different pages designed with CSS -> Cool stuff
+
+The General Rule:
+
+selector {
+propery: value;
+anotherProperty: value;
+}
+
+Examples:
+/*Make All h1's purple and 56px font*/
+h1 {
+color: purple;
+font-size: 56px;
+}
+
+/*Give All img's a 3px red border*/
+
+img {
+border-color: red;
+border-width: 3px;
+}
+
+Where do we write our styles?
+
+Inline:
+<h3 style="color: pink;"> blah blah blah </h3>
+<h3 style="color: pink;"> knock knock </h3>
+
+<p style="color: yellow;"> blah blah blah </h3>
+
+Style Tag:
+<html>
+<head>
+<title> About Rusty </title>
+<style type="text/css">
+li {
+color: red;
+}
+</style>
+</head>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>title</title>
+<style type="text/css">
+/* selector {
+property: value;
+} */
+h1 {
+color: purple;
+}
+</head>
+<body>
+<h1> About Me </h1>
+
+<h4> My Hobbies: </h4>
+<ul>
+<li> Playing Guitar </li>
+<li> Cooking </li>
+<li> Origami </li>
+</ul>
+
+</body>
+</html>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**It is better to have separate files for HTML and CSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<link rel="stylesheet" type="text/css" href="app.css">
+
+
+</head>
+<body>
+<h1>About Me</h1>
+<h1>About Me</h1>
+<h1>About Me</h1>
+
+<h4>My Hobbies:</h4>
+<ul>
+<li>Playing Guitar</li>
+<li>Cooking</li>
+<li>Origami</li>
+</ul>
+
+</body>
+</html>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+h1 {
+/*Named Colors*/
+color: purple;
+}
+
+li {
+/*HEXADECIMAL*/
+color: #F400DD;
+}
+
+h4 {
+/*RGB*/
+color: rgb(240, 100, 87);
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
