@@ -1,0 +1,28 @@
+20 sept 2019 , 5 PM
+> Flexbox is a model for Positioning content inside of a box
+> Content starts from left to right in Flexbox and cross axis is from top to bottom
+> justify-content-around (center, end etc)
+> align-items-start (
+> The main axis and cross axis when you use the class > flex-column <
+> 
+https://getbootstrap.com/docs/4.3/utilities/flex/
+> 
+https://codepen.io/vinay-didil/pen/gOYQjvX
+
+21 sept 2019 , 9.58 PM
+> Navs + Flex -> https://codepen.io/Didil/pen/rNBoeEq
+
+22 sept 2019 , 4.46 PM
+> Pattern program -> https://codepen.io/Didil/pen/MWgZEPr
+> Grid+Flexbox -> Lecture105 -> https://codepen.io/Didil/pen/ExYGoQZ?editors=1000
+> Justify-content and align-items
+> align-self for individual rows
+
+23 sept 2019 , 3.44 PM
+> Museum of Candy-Lecture106 --> https://codepen.io/Didil/pen/bGbOPro?editors=1000
+> aria-label="" --> to label an element ex: button
+> class="container-fluid" --> to use full space on the page
+
+23 sept 2019 , 3.44 PM
+> same Museum of candy lecture
+> @media (max-width: 1200px) { } >> CSS property called as media query
